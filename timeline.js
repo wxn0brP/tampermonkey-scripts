@@ -24,7 +24,7 @@
         refreshMs: 10_000,
         scrollDebounceMs: 80,
         previewLength: 50,
-        scrollOffset: 80
+        scrollOffset: 150
     };
 
     const map = {
@@ -37,6 +37,11 @@
             me: '.qwen-chat-message-user',
             chat: '.qwen-chat-message-assistant',
             main: '.chat-messages'
+        },
+        "chat.mistral.ai": {
+            me: '[data-message-author-role="user"]',
+            chat: '[data-message-author-role="assistant"]',
+            main: '.items-end [data-radix-scroll-area-viewport]'
         }
     };
 
