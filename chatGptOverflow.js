@@ -4,7 +4,7 @@
 // @version      2026-04-04
 // @description  remove code overflow
 // @author       wxn0brP
-// @match        https://chatgpt.com/c/*
+// @match        https://chatgpt.com/**/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com
 // @grant        none
 // ==/UserScript==
